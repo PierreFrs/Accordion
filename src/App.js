@@ -1,10 +1,11 @@
 import "./App.scss";
+import Faq from "./components/faq/Faq";
 
 function App() {
   return (
-    <section classNam>
-
-    </section>
+   <div>
+    <Faq />
+   </div>
   );
 }
 
