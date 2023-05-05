@@ -4,11 +4,11 @@
     max-width: 60rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    margin: 2rem;
+    margin: 2rem auto;
     
     .question-title {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
     }
 
     button.question-icon {
@@ -35,8 +35,8 @@
         }
     }
 }
-@media screen and (max-width: 600px) {
-    .question-title {
-        flex-direction: row;
+@media only screen and (max-width: 350px) {
+    .question .question-title {
+        flex-direction: column;
     }
 }
